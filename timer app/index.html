@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Count-down Timer</title>
+</head>
+<body>
+    <h1>New Years Eve</h1>
+
+
+    <div class="countdown-container">
+        <div class="countdown-el  days-c">
+            <p class="big-text" id="days">0</p>
+            <span>Days</span>
+        </div>
+        <div class="countdown-el hours-c">
+            <p class="big-text" id="hours">0</p>
+            <span>Hours</span>
+        </div>
+        <div class="countdown-el mins-c">
+            <p class="big-text" id="mins">0</p>
+            <span>Minutes</span>
+        </div>
+        <div class="countdown-el seconds-c">
+            <p class="big-text" id="seconds">0</p>
+            <span>Seconds</span>
+        </div>
+        
+    </div>
+    
+    <div class="date">
+    <input  class="inp"  type="text" placeholder="Enter a date" id="1">
+    <button class="btn" onclick="countdown()">Submit</button>
+</div>
+<audio src="1.mp3.mp3" id="myAudio"></audio>
+    
+    <script src="script.js"></script>
+</body>
+</html>
